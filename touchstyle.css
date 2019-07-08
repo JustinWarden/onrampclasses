@@ -1,0 +1,37 @@
+h1,h2{
+  width:100vw;
+  height:100vh;
+  text-align:center;
+  font-family:roboto; 
+  }
+  p,li,ol{
+      font-family:helvetica
+  }
+aside{
+    width:35vw;
+}
+
+body {
+    background-color: #494949;
+    text:#f4c20c;
+}
+footer{
+    text-align:center;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+  background-color: DodgerBlue;
+}
+
+/* touch style.css
+Link your new CSS file to the HTML file you made last time.
+Give your elements appropriate classnames and apply the following styles:
+Turn your header element into a splash page that takes up 100vw and 100vh. (Users should be able to scroll down to see the rest of your content.)
+All headings should be centered.
+Pick two fonts from Google Fonts. Apply one of them to all the heading elements and the other to all non-heading text.
+Your name should have a font size of 2em.
+The <aside> should be 35vw wide.
+The entire page should have a background color of #494949
+All text should be #f4c20c.
+The text in your footer should be centered. */

@@ -1,0 +1,41 @@
+p{
+    background-color:blue;
+}
+body{
+    background-color: rgb(37, 3, 70);
+}
+  h1{
+      color:orangered;
+  }
+ #html{
+     color:yellow;
+ }
+ li{
+color:red;
+ }
+ a{
+     color:yellow;
+ }
+ .weather-heading{
+     color:red;
+ }
+ .forcast{
+     color:blue;
+ }
+ .name{
+width:30vw;
+padding:4rem;
+ }
+ 
+
+ /* In your HTML, add a new div around your name and job title. This new div should be 30vw 
+ wide with 4rem of padding and should be centered both vertically and horizontally inside the header element. (Hint: flexbox is great for centering!)
+Use flexbox to create a two-column layout for the page content: 
+The left-hand column should be your bio aside element.
+The right-hand column should contain your tech stack section and your work experience section. These sections should be stacked on top of each other.
+Each column should have a padding of 1rem.
+You will need to add new elements to your HTML to make flexbox work correctly.
+Each article element in your work experience section should have a top margin of 2em.
+Your footer element should have a top padding of 15vh and a height of 20vh.
+Once you've followed the steps above, feel free to change anything! */
+ 
