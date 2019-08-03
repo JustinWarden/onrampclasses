@@ -41,7 +41,31 @@
   
 //   console.log (sumArray([2, 2, 2]));
 
-
-
+var shoppingCart = {
+    items: [
+      {
+        name: "Bananas",
+        totalPrice: 2.75
+      },
+      {
+        name: "English Muffins",
+        totalPrice: 3.99
+      },
+      {
+        name: "Peanut Butter",
+        totalPrice: 2.99
+      }
+    ],
+    addToCart: function(objectToAdd){
+      shoppingCart.push("bananas","english muffins","Peanut butter");
+    },
+    calculateTotal: function(){
+      // YOUR CODE GOES HERE
+    },
+    printShoppingCart: function(){
+      // YOUR CODE GOES HERE
+    }
+  }
+addToCart();
 
 
